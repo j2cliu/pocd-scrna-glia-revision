@@ -1,11 +1,11 @@
 # Prepublication repository audit
 
 - Status: **PASS**
-- Files audited: 283
-- Total bytes: 68,016,277
+- Files audited: 285
+- Total bytes: 68,018,589
 - R scripts parsed: 22
 - Python scripts byte-compiled: 9
-- Required artifacts present: 21/21
+- Required artifacts present: 23/23
 - Private absolute paths: 0
 - Credential/secret-pattern hits: 0
 - Files at or above 100 MB: 0

@@ -23,7 +23,9 @@ setwd(repository_root)
 required <- c(
   "README.md",
   "CITATION.cff",
-  "LICENSE_PENDING.md",
+  "LICENSE",
+  "LICENSE-CODE",
+  "LICENSE-DOCUMENTATION",
   "analysis/figure1/outputs/Figure1_study_design_partition_audit.tiff",
   "analysis/figure2/outputs/Figure2_transcriptome_and_selected_transcripts.tiff",
   "analysis/figure3/outputs/Figure3_animal_influence_estimator_sensitivity.tiff",

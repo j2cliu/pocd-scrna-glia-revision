@@ -117,9 +117,13 @@ The audit verifies required displays/tables, parses all R scripts, compiles all
 Python scripts, scans text for credentials and private absolute paths, checks
 file sizes, and writes the repository file manifest and audit report.
 
-## Citation and license status
+## Citation and licensing
 
-Citation metadata are provided in [`CITATION.cff`](CITATION.cff). A public
-license has deliberately not been assigned during local staging; see
-[`LICENSE_PENDING.md`](LICENSE_PENDING.md). No remote repository has been
-created and no file has been published from this staging package.
+Citation metadata are provided in [`CITATION.cff`](CITATION.cff). The public
+repository is available at
+[`j2cliu/pocd-scrna-glia-revision`](https://github.com/j2cliu/pocd-scrna-glia-revision).
+
+R and Python source code are released under the MIT License. Original
+documentation, figures, tables, and derived tabular outputs are released under
+CC BY 4.0. Third-party source data remain subject to their original terms. See
+[`LICENSE`](LICENSE) for the complete licensing policy.
