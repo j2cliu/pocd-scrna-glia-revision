@@ -1,0 +1,12 @@
+{
+  "table1": {
+    "title": "Table 1. Per-animal Scrublet exclusion and UMI audit of the frozen GSE267933 microglial cell set",
+    "note": "Values refer to the frozen submitted microglial cell set, not to all barcodes in each sequencing library. Scrublet was applied separately to each animal/library; predicted doublets are model-based calls and are not confirmed doublets. Percentages removed were calculated relative to the corresponding before-exclusion cell or UMI total. The retained cells constitute the 7,371-cell label-independent molecular-analysis set. C1-C3 were oxygen controls, whereas S1-S3 received the combined exposure of 2.5% sevoflurane in 50% O2 for 30 min plus laparotomy. No anesthesia-only group was available. UMI, unique molecular identifier."
+  },
+  "table2": {
+    "title": "Table 2. Per-animal composition of the six non-Rare submitted partitions and conditional exposure contrasts (GSE267933)",
+    "part_a": "Part A. Per-animal composition",
+    "part_b": "Part B. Animal-level group contrasts",
+    "note": "Entries in Part A are cell count (percentage). Percentages were calculated within each animal after excluding the submitted partition 6/Rare label (94 cells) from the frozen 7,461-cell set, yielding 7,367 cells; Scrublet status was not used to define this composition set. This differs intentionally from the 7,371-cell molecular-analysis set in Table 1. Biological names shown in parentheses are retained only for traceability to the submitted manuscript and are not treated as validated biological states. Part B uses the animal/library as the biological unit. Differences are the unweighted combined-exposure-minus-oxygen-control mean differences. Confidence intervals are Welch-Satterthwaite 95% intervals; Cohen's d is a point estimate using the pooled within-group standard deviation. Exact two-sided P values were obtained from all 20 allocations of three of the six animals to the exposed group. These unadjusted tests are descriptive; the six partition percentages are compositional and not independent. CI, confidence interval."
+  }
+}

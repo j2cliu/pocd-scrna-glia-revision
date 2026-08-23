@@ -1,0 +1,7 @@
+sample,source_group,gse267933_gsm,gse267933_title,biosample,sra_experiment,gse289098_barcode_suffix,gse267933_relation,biological_replication_added
+C1,Control,GSM8281758,Hippocampus_Control_rep1,SAMN41463843,SRX24614046,6,Reanalyzed by GSE289098,False
+C2,Control,GSM8281759,Hippocampus_Control_rep2,SAMN41463842,SRX24614047,5,Reanalyzed by GSE289098,False
+C3,Control,GSM8281760,Hippocampus_Control_rep3,SAMN41463841,SRX24614048,2,Reanalyzed by GSE289098,False
+S1,Surgery,GSM8281761,Hippocampus_Surgery_rep1,SAMN41463840,SRX24614049,1,Reanalyzed by GSE289098,False
+S2,Surgery,GSM8281762,Hippocampus_Surgery_rep2,SAMN41463839,SRX24614050,3,Reanalyzed by GSE289098,False
+S3,Surgery,GSM8281763,Hippocampus_Surgery_rep3,SAMN41463838,SRX24614051,4,Reanalyzed by GSE289098,False

@@ -1,0 +1,85 @@
+{
+  "figure": "Figure 3",
+  "purpose": "Animal influence and estimator sensitivity for selected interferon-responsive summaries",
+  "generated_utc": "2026-08-22 02:51:45 UTC",
+  "script": "85_plot_glia_R1_figure3.R",
+  "script_sha256": "910099a4fdbfdbe58d30aa4a3caeeb56821f5fc92f86e76c2228d28eb93a5b04",
+  "dimensions": {
+    "width_mm": 180,
+    "height_mm": 155
+  },
+  "preview_suffix": "",
+  "primary_accession": "GSE267933",
+  "primary_analysis_set_cells": 7371,
+  "inclusion_sensitivity_cells": 7461,
+  "biological_unit": "animal/library; n=3 per group",
+  "contrast": "combined exposure minus oxygen control",
+  "panel_selection_status": "selected during exploratory inspection; secondary descriptive analysis",
+  "leave_one_animal_out_status": "descriptive influence diagnostics; not independent hypothesis tests or biological replication",
+  "scales": {
+    "direct_expression": "animal-level equal-gene-weight mean log2 counts per million",
+    "score_genes": "Scanpy score_genes; seed=42, ctrl_size=50, n_bins=25, use_raw=FALSE, ctrl_as_ref=TRUE",
+    "hallmark": "NES from mouse MSigDB 2026.1.Mm Hallmarks ranked by signed animal-pseudobulk DESeq2 Wald statistics"
+  },
+  "submission_raster": {
+    "format": "TIFF",
+    "dpi": 300,
+    "compression": "LZW",
+    "bitsize": 8,
+    "background": "white"
+  },
+  "vector_master": {
+    "format": "PDF",
+    "device": "macOS Quartz PDF",
+    "font_family": "Arial",
+    "fonts_requested_embedded": true
+  },
+  "random_seed": {},
+  "render_warnings": [],
+  "r_version": "R version 4.5.2 (2025-10-31)",
+  "packages": {
+    "digest": "0.6.39",
+    "dplyr": "1.2.1",
+    "ggplot2": "4.0.2",
+    "jsonlite": "2.0.0",
+    "patchwork": "1.3.2",
+    "ragg": "1.5.2",
+    "readr": "2.2.0",
+    "scales": "1.4.0",
+    "systemfonts": "1.3.2"
+  },
+  "outputs": {
+    "1": [
+      {
+        "output": "vector_pdf_master",
+        "relative_path": "outputs/Figure3_animal_influence_estimator_sensitivity.pdf",
+        "sha256": "b39312c83706bac453a1c0e435931501d61c910c9ac04b6f658ca6a80ed207cd",
+        "_row": "vector_pdf_master"
+      }
+    ],
+    "2": [
+      {
+        "output": "glia_submission_tiff",
+        "relative_path": "outputs/Figure3_animal_influence_estimator_sensitivity.tiff",
+        "sha256": "adab406600faed4f7096ee41b558b932b8e4297f36610acbc858f47167b367a7",
+        "_row": "glia_submission_tiff"
+      }
+    ],
+    "3": [
+      {
+        "output": "png_preview",
+        "relative_path": "outputs/Figure3_animal_influence_estimator_sensitivity_preview.png",
+        "sha256": "bfb9a7b7c42ad673cf393e844268a9dcb6879097d8e9c6071b3228748e725829",
+        "_row": "png_preview"
+      }
+    ],
+    "4": [
+      {
+        "output": "plot_object",
+        "relative_path": "outputs/Figure3_animal_influence_estimator_sensitivity.rds",
+        "sha256": "2972b6bf386051cd300156803782c9e53124fe35f70a1ba2e6585ed4ed3440e4",
+        "_row": "plot_object"
+      }
+    ]
+  }
+}

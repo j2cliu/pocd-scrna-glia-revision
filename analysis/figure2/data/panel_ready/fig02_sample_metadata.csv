@@ -1,0 +1,7 @@
+sample,source_group,display_group,cells_retained,total_retained_umi
+C1,Control,Oxygen control,1134,8028456
+C2,Control,Oxygen control,917,6174562
+C3,Control,Oxygen control,1272,9706204
+S1,Surgery,Combined exposure,1305,10096172
+S2,Surgery,Combined exposure,1601,12003647
+S3,Surgery,Combined exposure,1142,11252901

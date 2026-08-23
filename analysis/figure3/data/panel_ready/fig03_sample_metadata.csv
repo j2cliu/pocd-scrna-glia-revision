@@ -1,0 +1,7 @@
+sample,sample_order,source_group,display_group,condition_order,biological_unit
+C1,1,Control,Oxygen control,1,Animal/library
+C2,2,Control,Oxygen control,1,Animal/library
+C3,3,Control,Oxygen control,1,Animal/library
+S1,4,Surgery,Combined exposure,2,Animal/library
+S2,5,Surgery,Combined exposure,2,Animal/library
+S3,6,Surgery,Combined exposure,2,Animal/library

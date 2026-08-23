@@ -1,0 +1,8 @@
+"scenario","dropped_animal","n_combined_exposure_animals","n_oxygen_control_animals","n_tested_features","n_nonmissing_bh_adjusted_p_values","n_bh_fdr_lt_0_05","n_positive_bh_fdr_lt_0_05","n_negative_bh_fdr_lt_0_05","n_full_fit_fdr_hits_retained"
+"Full cohort",NA,3,3,13926,6632,40,11,29,40
+"Omit C1","C1",3,2,13926,7172,18,1,17,17
+"Omit C2","C2",3,2,13926,13652,18,4,14,11
+"Omit C3","C3",3,2,13926,4472,10,0,10,8
+"Omit S1","S1",2,3,13926,3127,15,0,15,11
+"Omit S2","S2",2,3,13926,12305,58,18,40,24
+"Omit S3","S3",2,3,13926,11496,191,61,130,34

@@ -1,0 +1,6 @@
+part,file_stem,contents,unit_or_scale,interpretation_limit
+A,TableS5A_gse283401_sample_manifest,All 48 hippocampal source libraries; 32 old-animal model rows flagged,Animal/library,Young animals document the source design but are not in the old model
+B,TableS5B_gene_treatment_contrast_6h,Old-animal 6 h treatment-versus-control gene-level DESeq2 results,Unshrunk DESeq2 log2 fold change,Separately fitted descriptive gene-level context
+C,TableS5C_gene_treatment_contrast_48h,Old-animal 48 h treatment-versus-control gene-level DESeq2 results,Unshrunk DESeq2 log2 fold change,Separately fitted descriptive gene-level context
+D,TableS5D_gene_time_by_treatment_interaction,Old-animal time-by-treatment gene-level DESeq2 interaction,DESeq2 interaction log2 fold change,Different animals and separate matrices; compatible with but does not identify a temporal difference
+E,TableS5E_hallmark_time_by_treatment_interaction,All 50 mouse MSigDB Hallmark interaction results,GSEA normalized enrichment score,BH across all 50 sets; NES does not measure protein or pathway activity

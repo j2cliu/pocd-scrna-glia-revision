@@ -1,0 +1,11 @@
+source,path,size_bytes,sha256,analytic_role
+GSE267933 QC-retained integer count object,PROJECT_ROOT/data/processed/adata_raw.h5ad,367082516,72bc45907d1d939a76f609c11087897f8bd4636f48205e67bbbcc28f6d981b80,required or cross-check
+Submitted-microglia metadata and Scrublet calls,PROJECT_ROOT/data/processed/adata_microglia_scrublet_annotated.h5ad,320229016,fc6c595b1589caafd7d84ab71bd688182ac926694479ba734c5b071c9faecaeb,required or cross-check
+GSE267933 GEO SOFT provenance,PROJECT_ROOT/data/raw/GSE267933_family.soft.gz,2840,6f6f296e5d36108035ea50cdfe049431bf25cb1e09fd041449157f071373f8fa,required or cross-check
+GSE289098 integrated processed integer count matrix,PROJECT_ROOT/data/raw/GSE289098/matrix.mtx.gz,167611084,d1701c1cc8746c676cea9a158c1b7800ea1c45b21252e2208b265e0db776ec68,required or cross-check
+GSE289098 integrated barcodes,PROJECT_ROOT/data/raw/GSE289098/barcodes.tsv.gz,111823,904efcebe3958161f83df8da3d2fe6129844713eb54d34910cdffacc1b2fe7f0,required or cross-check
+GSE289098 feature identifiers and symbols,PROJECT_ROOT/data/raw/GSE289098/features.tsv.gz,251118,1fa660d374b189190007dcd3b6326053923827a2767c741cf7b2a4e79597a8c6,required or cross-check
+GSE289098 processing and barcode-suffix protocol,PROJECT_ROOT/data/raw/GSE289098/protocols.txt.gz,1086,b71d0b25cf64c3377f6b17cbc5e12c7b3f59d503198e64b3ded1e2cfd53ba49e,required or cross-check
+Malformed local download stub; not analytic input,PROJECT_ROOT/data/raw/GSE289098/GSE289098_series_matrix.txt.gz,992,9af4a5fe5ebaf734423a05eaf54f713c443884016447246b687a6e72607ae277,excluded malformed stub
+Malformed local download stub; not analytic input,PROJECT_ROOT/data/raw/GSE289098/GSE289098_RAW.tar,992,9af4a5fe5ebaf734423a05eaf54f713c443884016447246b687a6e72607ae277,excluded malformed stub
+Frozen primary pseudobulk cross-check,analysis/source_audit/data/scrublet_negative_pseudobulk_counts.csv.gz,176078,47c7c33e2cdd9f827e2363b42606b0ae6e6802a85bf321f77da65a8d27067666,required or cross-check

@@ -1,0 +1,8 @@
+partition,traceability_name,n_cells,n_oxygen_control,n_combined_exposure,n_doublets,doublet_rate,control_doublet_rate,surgery_doublet_rate,doublet_rate_percent,interpretation_ceiling
+0,Inflammatory,1650,709,941,4,0.0024242424242424,0.0,0.004250797024442,0.24242424242424,Submitted traceability partition; not a validated biological state
+1,Transitional-A,1381,499,882,0,0.0,0.0,0.0,0.0,Submitted traceability partition; not a validated biological state
+2,Homeostatic-A,1285,641,644,1,0.0007782101167315,0.0015600624024961,0.0,0.07782101167315,Submitted traceability partition; not a validated biological state
+3,Homeostatic-B,1224,562,662,0,0.0,0.0,0.0,0.0,Submitted traceability partition; not a validated biological state
+4,Homeostatic-C,1209,593,616,0,0.0,0.0,0.0,0.0,Submitted traceability partition; not a validated biological state
+5,Transitional-B,618,316,302,3,0.0048543689320388,0.0,0.009933774834437,0.48543689320388,Submitted traceability partition; not a validated biological state
+6,Rare,94,41,53,82,0.8723404255319149,0.902439024390244,0.8490566037735849,87.2340425531915,Doublet-enriched; excluded from biological interpretation

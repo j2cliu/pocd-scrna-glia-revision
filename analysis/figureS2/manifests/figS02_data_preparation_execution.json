@@ -1,0 +1,51 @@
+{
+  "figure": "Figure S2",
+  "supplementary_table": "Table S2",
+  "generated_utc": "2026-08-20 14:26:24 UTC",
+  "script": "91_prepare_glia_R1_figureS2_tableS2.R",
+  "script_sha256": "080b40ac1d019b6dc413ad507bc76bbba049e7568e0d098eaf29d36db4fa9056",
+  "submitted_cells": 7461,
+  "fixed_stored_graph": {
+    "resolution": 0.4,
+    "seeds": [
+      0,
+      1,
+      7,
+      42,
+      123,
+      2024
+    ],
+    "output": "Parts A-B and Figure S2A",
+    "interpretation": "Algorithmic Leiden-seed sensitivity on the exact graph stored in adata_microglia_subtyped.h5ad"
+  },
+  "conditional_reconstructed_graph": {
+    "pc_basis": "Inherited whole-cell PC1-PC20",
+    "n_neighbors": 15,
+    "cell_subsampling_fraction": 0.8,
+    "resolution_0.4_runs": {
+      "variable_seed": 100,
+      "fixed_seed": 50
+    },
+    "resolution_sweep": {
+      "settings": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.8,
+        1
+      ],
+      "runs_per_setting": 30
+    },
+    "output": "Parts C-F and Figure S2B-C",
+    "interpretation": "Conditional graph-reconstruction diagnostics; not the submitted stored graph, end-to-end stability, or biological replication"
+  },
+  "excluded_as_submitted_graph_evidence": [
+    "PROJECT_ROOT/data/results/cluster_stability/leiden_stability_isolated.csv",
+    "PROJECT_ROOT/data/results/cluster_stability/perturbation_ari.csv"
+  ],
+  "submitted_partition_labels": "Numeric partitions are primary; retrospective biological names appear only as traceability labels",
+  "claim_ceiling": "Algorithmic sensitivity and conditional reconstructed-graph diagnostics only; not biological replication, end-to-end stability, or state validation"
+}

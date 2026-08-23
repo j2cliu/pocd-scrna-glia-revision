@@ -1,0 +1,23 @@
+{
+  "analysis": "Figure S1 retrospective submitted-partition annotation audit",
+  "generated_utc": "2026-08-20 14:26:58 UTC",
+  "script": "REPOSITORY_BUILD_SOURCE/revision_work/results_rebuild/figureS1/scripts/92_plot_glia_R1_figureS1.R",
+  "script_sha256": "1c6b986b9ddee114ef5ce81897403bb58b87517152976590bf5ac8e66e571e0c",
+  "dimensions_mm": {
+    "width": 180,
+    "height": 150
+  },
+  "submission_tiff_dpi": 300,
+  "submission_tiff_compression": "LZW",
+  "font_family": "Arial",
+  "anchors": {
+    "n_cells": 7461,
+    "n_partitions": 7,
+    "n_scrublet_calls": 90,
+    "partition_6_scrublet_calls": 82,
+    "partition_6_cells": 94,
+    "max_bam_cam_detection_percent": 1.51515151515152
+  },
+  "claim_ceiling": "retrospective traceability audit; no biological-state validation or animal-level inference",
+  "render_warnings": []
+}

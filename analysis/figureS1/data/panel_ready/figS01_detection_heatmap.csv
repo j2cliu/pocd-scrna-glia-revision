@@ -1,0 +1,113 @@
+partition,traceability_name,gene_group,gene_group_order,gene,within_group_order,n_cells,pct_detected
+0,Inflammatory,Microglia core,1,P2ry12,1,1650,99.03030303030303
+0,Inflammatory,Microglia core,1,Tmem119,2,1650,97.45454545454545
+0,Inflammatory,Microglia core,1,Cx3cr1,3,1650,99.57575757575758
+0,Inflammatory,Microglia core,1,Hexb,4,1650,100.0
+0,Inflammatory,Microglia core,1,Csf1r,5,1650,99.93939393939394
+0,Inflammatory,BAM/CAM,2,Pf4,1,1650,1.1515151515151514
+0,Inflammatory,BAM/CAM,2,Mrc1,2,1650,1.5151515151515151
+0,Inflammatory,BAM/CAM,2,Lyve1,3,1650,0.06060606060606061
+0,Inflammatory,BAM/CAM,2,Cd163,4,1650,0.12121212121212122
+0,Inflammatory,BAM/CAM,2,F13a1,5,1650,0.18181818181818182
+0,Inflammatory,Choroid-plexus-associated,3,Ttr,1,1650,53.63636363636364
+0,Inflammatory,Oligodendrocyte lineage,4,Plp1,1,1650,52.78787878787878
+0,Inflammatory,Oligodendrocyte lineage,4,Mbp,2,1650,48.848484848484844
+0,Inflammatory,Oligodendrocyte lineage,4,Mal,3,1650,12.545454545454545
+0,Inflammatory,Oligodendrocyte lineage,4,Cldn11,4,1650,10.969696969696969
+0,Inflammatory,Oligodendrocyte lineage,4,Mobp,5,1650,21.515151515151516
+1,Transitional-A,Microglia core,1,P2ry12,1,1381,99.7103548153512
+1,Transitional-A,Microglia core,1,Tmem119,2,1381,99.7827661115134
+1,Transitional-A,Microglia core,1,Cx3cr1,3,1381,100.0
+1,Transitional-A,Microglia core,1,Hexb,4,1381,100.0
+1,Transitional-A,Microglia core,1,Csf1r,5,1381,100.0
+1,Transitional-A,BAM/CAM,2,Pf4,1,1381,0.7965242577842143
+1,Transitional-A,BAM/CAM,2,Mrc1,2,1381,0.8689355539464156
+1,Transitional-A,BAM/CAM,2,Lyve1,3,1381,0.2172338884866039
+1,Transitional-A,BAM/CAM,2,Cd163,4,1381,0.1448225923244026
+1,Transitional-A,BAM/CAM,2,F13a1,5,1381,0.3620564808110065
+1,Transitional-A,Choroid-plexus-associated,3,Ttr,1,1381,46.125995655322235
+1,Transitional-A,Oligodendrocyte lineage,4,Plp1,1,1381,66.2563359884142
+1,Transitional-A,Oligodendrocyte lineage,4,Mbp,2,1381,54.88776249094859
+1,Transitional-A,Oligodendrocyte lineage,4,Mal,3,1381,12.454742939898624
+1,Transitional-A,Oligodendrocyte lineage,4,Cldn11,4,1381,13.613323678493844
+1,Transitional-A,Oligodendrocyte lineage,4,Mobp,5,1381,21.433743664011587
+2,Homeostatic-A,Microglia core,1,P2ry12,1,1285,97.35408560311284
+2,Homeostatic-A,Microglia core,1,Tmem119,2,1285,97.8988326848249
+2,Homeostatic-A,Microglia core,1,Cx3cr1,3,1285,98.28793774319065
+2,Homeostatic-A,Microglia core,1,Hexb,4,1285,100.0
+2,Homeostatic-A,Microglia core,1,Csf1r,5,1285,99.61089494163424
+2,Homeostatic-A,BAM/CAM,2,Pf4,1,1285,0.622568093385214
+2,Homeostatic-A,BAM/CAM,2,Mrc1,2,1285,0.8560311284046693
+2,Homeostatic-A,BAM/CAM,2,Lyve1,3,1285,0.0
+2,Homeostatic-A,BAM/CAM,2,Cd163,4,1285,0.07782101167315175
+2,Homeostatic-A,BAM/CAM,2,F13a1,5,1285,0.0
+2,Homeostatic-A,Choroid-plexus-associated,3,Ttr,1,1285,55.797665369649806
+2,Homeostatic-A,Oligodendrocyte lineage,4,Plp1,1,1285,51.67315175097277
+2,Homeostatic-A,Oligodendrocyte lineage,4,Mbp,2,1285,44.12451361867704
+2,Homeostatic-A,Oligodendrocyte lineage,4,Mal,3,1285,9.961089494163424
+2,Homeostatic-A,Oligodendrocyte lineage,4,Cldn11,4,1285,9.883268482490273
+2,Homeostatic-A,Oligodendrocyte lineage,4,Mobp,5,1285,18.832684824902724
+3,Homeostatic-B,Microglia core,1,P2ry12,1,1224,98.69281045751634
+3,Homeostatic-B,Microglia core,1,Tmem119,2,1224,99.59150326797386
+3,Homeostatic-B,Microglia core,1,Cx3cr1,3,1224,99.67320261437908
+3,Homeostatic-B,Microglia core,1,Hexb,4,1224,100.0
+3,Homeostatic-B,Microglia core,1,Csf1r,5,1224,100.0
+3,Homeostatic-B,BAM/CAM,2,Pf4,1,1224,1.0620915032679739
+3,Homeostatic-B,BAM/CAM,2,Mrc1,2,1224,1.2254901960784315
+3,Homeostatic-B,BAM/CAM,2,Lyve1,3,1224,0.08169934640522876
+3,Homeostatic-B,BAM/CAM,2,Cd163,4,1224,0.32679738562091504
+3,Homeostatic-B,BAM/CAM,2,F13a1,5,1224,0.40849673202614384
+3,Homeostatic-B,Choroid-plexus-associated,3,Ttr,1,1224,51.55228758169934
+3,Homeostatic-B,Oligodendrocyte lineage,4,Plp1,1,1224,62.5
+3,Homeostatic-B,Oligodendrocyte lineage,4,Mbp,2,1224,51.9607843137255
+3,Homeostatic-B,Oligodendrocyte lineage,4,Mal,3,1224,12.826797385620914
+3,Homeostatic-B,Oligodendrocyte lineage,4,Cldn11,4,1224,11.683006535947712
+3,Homeostatic-B,Oligodendrocyte lineage,4,Mobp,5,1224,19.934640522875817
+4,Homeostatic-C,Microglia core,1,P2ry12,1,1209,99.25558312655087
+4,Homeostatic-C,Microglia core,1,Tmem119,2,1209,99.75186104218362
+4,Homeostatic-C,Microglia core,1,Cx3cr1,3,1209,99.9172870140612
+4,Homeostatic-C,Microglia core,1,Hexb,4,1209,100.0
+4,Homeostatic-C,Microglia core,1,Csf1r,5,1209,99.83457402812242
+4,Homeostatic-C,BAM/CAM,2,Pf4,1,1209,0.9098428453267163
+4,Homeostatic-C,BAM/CAM,2,Mrc1,2,1209,0.6617038875103392
+4,Homeostatic-C,BAM/CAM,2,Lyve1,3,1209,0.0827129859387924
+4,Homeostatic-C,BAM/CAM,2,Cd163,4,1209,0.1654259718775848
+4,Homeostatic-C,BAM/CAM,2,F13a1,5,1209,0.24813895781637718
+4,Homeostatic-C,Choroid-plexus-associated,3,Ttr,1,1209,53.43258891645989
+4,Homeostatic-C,Oligodendrocyte lineage,4,Plp1,1,1209,68.07278742762614
+4,Homeostatic-C,Oligodendrocyte lineage,4,Mbp,2,1209,54.4251447477254
+4,Homeostatic-C,Oligodendrocyte lineage,4,Mal,3,1209,14.226633581472292
+4,Homeostatic-C,Oligodendrocyte lineage,4,Cldn11,4,1209,15.467328370554176
+4,Homeostatic-C,Oligodendrocyte lineage,4,Mobp,5,1209,22.91149710504549
+5,Transitional-B,Microglia core,1,P2ry12,1,618,80.74433656957929
+5,Transitional-B,Microglia core,1,Tmem119,2,618,88.18770226537217
+5,Transitional-B,Microglia core,1,Cx3cr1,3,618,90.77669902912622
+5,Transitional-B,Microglia core,1,Hexb,4,618,97.73462783171522
+5,Transitional-B,Microglia core,1,Csf1r,5,618,94.98381877022653
+5,Transitional-B,BAM/CAM,2,Pf4,1,618,0.8090614886731391
+5,Transitional-B,BAM/CAM,2,Mrc1,2,618,0.6472491909385114
+5,Transitional-B,BAM/CAM,2,Lyve1,3,618,0.0
+5,Transitional-B,BAM/CAM,2,Cd163,4,618,0.0
+5,Transitional-B,BAM/CAM,2,F13a1,5,618,0.16181229773462785
+5,Transitional-B,Choroid-plexus-associated,3,Ttr,1,618,49.51456310679612
+5,Transitional-B,Oligodendrocyte lineage,4,Plp1,1,618,47.57281553398058
+5,Transitional-B,Oligodendrocyte lineage,4,Mbp,2,618,36.89320388349515
+5,Transitional-B,Oligodendrocyte lineage,4,Mal,3,618,9.870550161812297
+5,Transitional-B,Oligodendrocyte lineage,4,Cldn11,4,618,10.355987055016183
+5,Transitional-B,Oligodendrocyte lineage,4,Mobp,5,618,15.6957928802589
+6,Rare,Microglia core,1,P2ry12,1,94,97.87234042553192
+6,Rare,Microglia core,1,Tmem119,2,94,97.87234042553192
+6,Rare,Microglia core,1,Cx3cr1,3,94,100.0
+6,Rare,Microglia core,1,Hexb,4,94,100.0
+6,Rare,Microglia core,1,Csf1r,5,94,98.93617021276596
+6,Rare,BAM/CAM,2,Pf4,1,94,0.0
+6,Rare,BAM/CAM,2,Mrc1,2,94,1.0638297872340425
+6,Rare,BAM/CAM,2,Lyve1,3,94,0.0
+6,Rare,BAM/CAM,2,Cd163,4,94,0.0
+6,Rare,BAM/CAM,2,F13a1,5,94,0.0
+6,Rare,Choroid-plexus-associated,3,Ttr,1,94,55.319148936170215
+6,Rare,Oligodendrocyte lineage,4,Plp1,1,94,100.0
+6,Rare,Oligodendrocyte lineage,4,Mbp,2,94,100.0
+6,Rare,Oligodendrocyte lineage,4,Mal,3,94,98.93617021276596
+6,Rare,Oligodendrocyte lineage,4,Cldn11,4,94,98.93617021276596
+6,Rare,Oligodendrocyte lineage,4,Mobp,5,94,98.93617021276596

@@ -1,0 +1,11 @@
+graph_scope,arm,n_runs,neighbor_graph_seed,leiden_seed,n_partitions_recovered,n_runs_at_count,percentage_of_runs
+Graph rebuilt per 80% cell subsample from inherited whole-cell PC1-PC20; 15 neighbors; Leiden resolution 0.4,Graph and Leiden seeds varied,100,Iteration-specific (0-99),Iteration-specific (0-99),5,1,1
+Graph rebuilt per 80% cell subsample from inherited whole-cell PC1-PC20; 15 neighbors; Leiden resolution 0.4,Graph and Leiden seeds varied,100,Iteration-specific (0-99),Iteration-specific (0-99),6,40,40
+Graph rebuilt per 80% cell subsample from inherited whole-cell PC1-PC20; 15 neighbors; Leiden resolution 0.4,Graph and Leiden seeds varied,100,Iteration-specific (0-99),Iteration-specific (0-99),7,52,52
+Graph rebuilt per 80% cell subsample from inherited whole-cell PC1-PC20; 15 neighbors; Leiden resolution 0.4,Graph and Leiden seeds varied,100,Iteration-specific (0-99),Iteration-specific (0-99),8,6,6
+Graph rebuilt per 80% cell subsample from inherited whole-cell PC1-PC20; 15 neighbors; Leiden resolution 0.4,Graph and Leiden seeds varied,100,Iteration-specific (0-99),Iteration-specific (0-99),9,1,1
+Graph rebuilt per 80% cell subsample from inherited whole-cell PC1-PC20; 15 neighbors; Leiden resolution 0.4,Graph and Leiden seeds fixed,50,0,0,5,1,2
+Graph rebuilt per 80% cell subsample from inherited whole-cell PC1-PC20; 15 neighbors; Leiden resolution 0.4,Graph and Leiden seeds fixed,50,0,0,6,17,34
+Graph rebuilt per 80% cell subsample from inherited whole-cell PC1-PC20; 15 neighbors; Leiden resolution 0.4,Graph and Leiden seeds fixed,50,0,0,7,27,54
+Graph rebuilt per 80% cell subsample from inherited whole-cell PC1-PC20; 15 neighbors; Leiden resolution 0.4,Graph and Leiden seeds fixed,50,0,0,8,5,10
+Graph rebuilt per 80% cell subsample from inherited whole-cell PC1-PC20; 15 neighbors; Leiden resolution 0.4,Graph and Leiden seeds fixed,50,0,0,9,0,0

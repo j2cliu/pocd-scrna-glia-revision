@@ -1,0 +1,52 @@
+{
+  "analysis": "GSE289098 same-cohort processed-count bounded preflight",
+  "generated_utc": "2026-08-01T01:22:55.634579+00:00",
+  "claim_role": "same-six-library processed-count sensitivity only",
+  "biological_unit": "animal/library",
+  "primary_analysis_cells": 7371,
+  "plotting": "none; plotting is reserved for the R Figure S3 script",
+  "software": {
+    "python": "3.11.15",
+    "anndata": "0.12.10",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1"
+  },
+  "gates": [
+    {
+      "gate": "Input",
+      "status": "PARTIAL",
+      "evidence": "Required matrix/barcode/feature/protocol and GSE267933 provenance files are valid; two 992-byte nonanalytic local download stubs are malformed"
+    },
+    {
+      "gate": "Identity",
+      "status": "PASS",
+      "evidence": "All 20,684 cells map one-to-one across six named source libraries"
+    },
+    {
+      "gate": "Common cell",
+      "status": "PASS",
+      "evidence": "All 7,371 frozen Scrublet-negative microglia map exactly once"
+    },
+    {
+      "gate": "Coverage",
+      "status": "PASS",
+      "evidence": "All seven selected genes use identical feature IDs and are measurable in both payloads"
+    },
+    {
+      "gate": "Replication",
+      "status": "PASS",
+      "evidence": "Same six animal/library units retained at n=3 per group; no new replication claimed"
+    },
+    {
+      "gate": "Payload difference",
+      "status": "PASS",
+      "evidence": "2,296,567 matched matrix entries differ"
+    },
+    {
+      "gate": "Estimand concordance",
+      "status": "PENDING",
+      "evidence": "Requires the frozen R animal-level effect and leave-one-animal-out analysis"
+    }
+  ]
+}

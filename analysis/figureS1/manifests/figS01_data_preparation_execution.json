@@ -1,0 +1,24 @@
+{
+  "analysis": "Figure S1 and Table S1 retrospective submitted-partition audit",
+  "generated_utc": "2026-08-01T02:23:34.905795+00:00",
+  "script": "REPOSITORY_BUILD_SOURCE/revision_work/results_rebuild/figureS1/scripts/91_prepare_glia_R1_figureS1_tableS1.py",
+  "script_sha256": "46fef4a4e6270658342a766e0137eeda58f8f9a10bf732637c5004baaff4d194",
+  "python": "3.11.15",
+  "packages": {
+    "anndata": "0.12.10",
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scanpy": "1.11.5",
+    "scipy": "1.17.1"
+  },
+  "anchors": {
+    "n_cells": 7461,
+    "n_partitions": 7,
+    "n_detected_symbol_deduplicated_genes": 17878,
+    "n_scrublet_calls": 90,
+    "partition_6_scrublet_calls": 82,
+    "partition_6_cells": 94,
+    "n_retained_positive_markers": 14390
+  },
+  "claim_ceiling": "retrospective traceability audit; no biological-state validation or animal-level inference"
+}

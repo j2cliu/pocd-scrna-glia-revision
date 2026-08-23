@@ -1,0 +1,7 @@
+outcome_type,outcome,sample,source_group,display_group,primary_gene_umi,alternative_gene_umi,primary_total_umi,alternative_total_umi,primary_value,alternative_value,alternative_minus_primary,metric
+panel,author_selected_isg7,C1,Control,Oxygen control,NA,NA,8028456,7823180,2.2386287029118845,2.2089440423962707,-0.029684660515613803,Equal-gene-weight mean log2-CPM
+panel,author_selected_isg7,C2,Control,Oxygen control,NA,NA,6174562,5997579,2.1701928892129994,2.15788321954627,-0.012309669666729306,Equal-gene-weight mean log2-CPM
+panel,author_selected_isg7,C3,Control,Oxygen control,NA,NA,9706204,9385699,2.5091505557575324,2.4605976033054073,-0.0485529524521251,Equal-gene-weight mean log2-CPM
+panel,author_selected_isg7,S1,Surgery,Combined exposure,NA,NA,10096172,10045514,3.0995847018265072,3.101640292974023,0.002055591147515745,Equal-gene-weight mean log2-CPM
+panel,author_selected_isg7,S2,Surgery,Combined exposure,NA,NA,12003647,12003647,2.4109425229917774,2.4109425229917774,0,Equal-gene-weight mean log2-CPM
+panel,author_selected_isg7,S3,Surgery,Combined exposure,NA,NA,11252901,10801036,4.613165949033876,4.609730204002172,-0.0034357450317035187,Equal-gene-weight mean log2-CPM

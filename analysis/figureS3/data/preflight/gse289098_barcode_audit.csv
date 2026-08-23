@@ -1,0 +1,7 @@
+sample,group,gsm,biosample,sra_experiment,integrated_suffix,primary_all_cells,integrated_mapped_cells,submitted_microglia,scrublet_negative_microglia,missing_primary_to_integrated,duplicate_integrated_matches
+C1,Control,GSM8281758,SAMN41463843,SRX24614046,6,3171,3171,1147,1134,0,0
+C2,Control,GSM8281759,SAMN41463842,SRX24614047,5,3276,3276,932,917,0,0
+C3,Control,GSM8281760,SAMN41463841,SRX24614048,2,3692,3692,1282,1272,0,0
+S1,Surgery,GSM8281761,SAMN41463840,SRX24614049,1,3776,3776,1321,1305,0,0
+S2,Surgery,GSM8281762,SAMN41463839,SRX24614050,3,4083,4083,1622,1601,0,0
+S3,Surgery,GSM8281763,SAMN41463838,SRX24614051,4,2686,2686,1157,1142,0,0

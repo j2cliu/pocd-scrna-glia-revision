@@ -1,0 +1,9 @@
+part,filename,unit,description
+A,TableS6A_global_payload_and_gate_audit,Count payload,"Matrix dimensions, exact cell/feature overlap, count losses, frozen feature universes, malformed-stub note, and final sensitivity gates"
+B,TableS6B_library_mapping_and_counts,Animal/library,"GSE267933 identifiers, GSE289098 suffix mapping, all-cell and frozen microglial counts, and per-library count-payload changes"
+C,TableS6C_paired_animal_values,Animal/library x outcome,Paired gene and seven-transcript-panel values under both count payloads; alternative-minus-primary differences are descriptive
+D,TableS6D_paired_direct_full_effects,Outcome,"Full animal-level group means, mean difference, Welch interval, Cohen's d, and exact 3-v-3 permutation P under each payload"
+E,TableS6E_panel_full_and_leave_one_out,Omission scenario,"Matched full and six systematic leave-one-animal-out panel estimates; omission rows are influence diagnostics, not independent tests"
+F,TableS6F_selected_gene_deseq2,Transcript,"Selected-transcript DESeq2 estimates under both payloads using the same primary-derived 13,926-feature universe; padj is payload-specific"
+G,TableS6G_deseq2_size_factors,Animal/library x payload,DESeq2 median-ratio size factors for computational audit
+H,TableS6H_gene_full_and_leave_one_out,Transcript x omission scenario,Matched full and leave-one-animal-out direct-expression effects for all seven genes; supports the reported 48-of-49 sign agreement

@@ -1,0 +1,8 @@
+gate,status,evidence
+Input,PARTIAL,Required matrix/barcode/feature/protocol and GSE267933 provenance files are valid; two 992-byte nonanalytic local download stubs are malformed
+Identity,PASS,"All 20,684 cells map one-to-one across six named source libraries"
+Common cell,PASS,"All 7,371 frozen Scrublet-negative microglia map exactly once"
+Coverage,PASS,All seven selected genes use identical feature IDs and are measurable in both payloads
+Replication,PASS,Same six animal/library units retained at n=3 per group; no new replication claimed
+Payload difference,PASS,"2,296,567 matched matrix entries differ"
+Estimand concordance,PASS,Full and all six leave-one-animal-out panel differences remain positive; alternative-minus-primary full contrast = +0.029722

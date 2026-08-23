@@ -1,0 +1,2 @@
+outcome_type,outcome,dropped_animal,dropped_source_group,n_combined_exposure,n_oxygen_control,combined_exposure_mean,oxygen_control_mean,mean_difference,mean_difference_ci95_low,mean_difference_ci95_high,welch_se,welch_df,cohens_d,exact_permutation_hits,exact_permutation_allocations,exact_permutation_p,perfect_group_separation,sign_matches_full
+panel,author_selected_isg7,(none),NA,3,3,3.3745643912840535,2.3059907159608053,1.0685736753232482,-1.6383376896954465,3.775485040341943,0.6586055173095163,2.101187557266306,1.3247486233261767,4,20,0.2,FALSE,TRUE

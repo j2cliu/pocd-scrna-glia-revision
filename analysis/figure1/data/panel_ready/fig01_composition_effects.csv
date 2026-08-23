@@ -1,0 +1,7 @@
+partition,submitted_trace_label,control_mean_pct,combined_exposure_mean_pct,difference_percentage_points,ci95_low,ci95_high,cohens_d,exact_permutation_p,n_permutations,perfect_separation
+0,Inflammatory,22.448,24.764,2.316,-28.783,33.415,0.175,0.7,20,FALSE
+1,Transitional-A,14.777,20.907,6.13,-11.293,23.553,0.975,0.3,20,FALSE
+2,Homeostatic-A,19.576,16.997,-2.578,-24.482,19.325,-0.366,0.9,20,FALSE
+3,Homeostatic-B,16.392,16.095,-0.296,-11.025,10.433,-0.063,0.9,20,FALSE
+4,Homeostatic-C,17.289,13.778,-3.511,-30.089,23.067,-0.347,0.7,20,FALSE
+5,Transitional-B,9.518,7.457,-2.061,-5.568,1.447,-1.338,0.3,20,FALSE

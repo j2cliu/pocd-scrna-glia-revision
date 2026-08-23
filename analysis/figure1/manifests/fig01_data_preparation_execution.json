@@ -1,0 +1,32 @@
+{
+  "figure": "Figure 1",
+  "purpose": "Study design and audit of the submitted microglial partition",
+  "generated_utc": "2026-07-28 06:56:55 UTC",
+  "script": "78_prepare_glia_R1_figure1_data.R",
+  "script_sha256": "f92b9ed3a6e09cb6055def06af1a9d81021a06ce92ef9d84d122806bcf11e1dc",
+  "source_manifest_sha256": "1d0910df51929d359ae98edbf20212891ea76b0640d41498ba7db6edfdced53e",
+  "panel_ready_manifest_sha256": "0e99901429b71c5d583036a1fe5891f61cc2bd82489356c0b7fe954d338ca930",
+  "cell_sets": {
+    "submitted_partition_audit": 7461,
+    "conditional_non_rare_composition": 7367,
+    "scrublet_negative_molecular_analysis": 7371
+  },
+  "partition_mapping": {
+    "Inflammatory": 0,
+    "Transitional-A": 1,
+    "Homeostatic-A": 2,
+    "Homeostatic-B": 3,
+    "Homeostatic-C": 4,
+    "Transitional-B": 5,
+    "Rare": 6
+  },
+  "random_seed": {},
+  "r_version": "R version 4.5.2 (2025-10-31)",
+  "packages": {
+    "digest": "0.6.39",
+    "dplyr": "1.2.1",
+    "jsonlite": "2.0.0",
+    "readr": "2.2.0",
+    "tidyr": "1.3.2"
+  }
+}

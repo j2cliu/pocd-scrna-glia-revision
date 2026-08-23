@@ -1,0 +1,45 @@
+{
+  "figure": "Figure 2",
+  "supplementary_table": "Table S3",
+  "purpose": "Animal-level expression of author-selected, post hoc interferon-responsive transcripts",
+  "generated_utc": "2026-07-28 11:46:40 UTC",
+  "script": "82_prepare_glia_R1_figure2_data.R",
+  "script_sha256": "80302e45b7448a88ea78d911488c6d7bb3f1dc381f5c675f6309616bc3206890",
+  "analysis_set_cells": 7371,
+  "biological_unit": "animal/library",
+  "groups": {
+    "oxygen_control": ["C1", "C2", "C3"],
+    "combined_exposure": ["S1", "S2", "S3"]
+  },
+  "selected_genes": [
+    "Irf7",
+    "Ifitm3",
+    "Isg15",
+    "Mx1",
+    "Ifit1",
+    "Ifit2",
+    "Ifit3"
+  ],
+  "selection_status": "author-selected, post hoc, exploratory",
+  "direct_expression": "log2(((gene UMI + 0.5)/(total retained UMI + 1)) x 1e6); panel is equal-weight mean across seven genes",
+  "direct_uncertainty": "Welch-Satterthwaite 95% mean-difference interval",
+  "effect_size": "Cohen's d using pooled within-group SD",
+  "exact_test": "two-sided absolute mean-difference permutation over all 20 three-versus-three allocations; no +1 correction",
+  "loo_policy": "drop each animal once; descriptive influence diagnostics; no exact p value assigned to 3-vs-2 or 2-vs-3 rows",
+  "deseq2": {
+    "design": "~ group",
+    "reference": "Control",
+    "contrast": "Combined exposure minus oxygen control",
+    "filtered_features": 13926,
+    "interval": "95% Wald interval"
+  },
+  "random_seed": {},
+  "r_version": "R version 4.5.2 (2025-10-31)",
+  "packages": {
+    "digest": "0.6.39",
+    "dplyr": "1.2.1",
+    "jsonlite": "2.0.0",
+    "readr": "2.2.0",
+    "tidyr": "1.3.2"
+  }
+}

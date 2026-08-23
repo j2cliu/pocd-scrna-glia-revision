@@ -1,0 +1,94 @@
+{
+  "figure": "Figure 4",
+  "purpose": "Independent temporal context for selected transcript contrasts and focused Hallmark time-by-treatment interactions",
+  "generated_utc": "2026-08-22 02:53:16 UTC",
+  "script": "87_plot_glia_R1_figure4.R",
+  "script_sha256": "e407cc043db914cb2d62c25e21d452bdc36d155ff988e1326243f2b23d8a0c66",
+  "dimensions": {
+    "width_mm": 180,
+    "height_mm": 165
+  },
+  "preview_suffix": "",
+  "external_accession": "GSE283401",
+  "external_role": "independent context; not replication or validation",
+  "biological_unit": "animal/library",
+  "old_model_n": 32,
+  "old_design": {
+    "six_h_control_n": 8,
+    "six_h_exposure_n": 7,
+    "forty_eight_h_control_n": 8,
+    "forty_eight_h_exposure_n": 9
+  },
+  "gene_display": {
+    "selection_status": "selected during exploratory inspection; secondary descriptive analysis",
+    "estimator": "unshrunk DESeq2 log2 fold change with 95% Wald CI",
+    "fits": "separate old-animal treatment models at 6 h and 48 h"
+  },
+  "hallmark_display": {
+    "estimator": "mouse MSigDB 2026.1.Mm Hallmark NES ranked by signed DESeq2 time-by-treatment Wald statistic",
+    "interaction": "(48-h exposure minus control) minus (6-h exposure minus control)",
+    "multiplicity": "BH FDR across all 50 Hallmark gene sets"
+  },
+  "claim_ceiling": "Between-experiment difference in treatment-associated contrast compatible with, but not identifying, a temporal difference",
+  "limitation": "Different animals at 6 h and 48 h; time is inseparable from deposited matrix and any unrecorded time-aligned processing or sequencing-batch effects; not a trajectory, replication, or validation",
+  "submission_raster": {
+    "format": "TIFF",
+    "dpi": 300,
+    "compression": "LZW",
+    "bitsize": 8,
+    "background": "white"
+  },
+  "vector_master": {
+    "format": "PDF",
+    "device": "macOS Quartz PDF",
+    "font_family": "Arial",
+    "fonts_requested_embedded": true
+  },
+  "random_seed": {},
+  "render_warnings": [],
+  "r_version": "R version 4.5.2 (2025-10-31)",
+  "packages": {
+    "digest": "0.6.39",
+    "dplyr": "1.2.1",
+    "ggplot2": "4.0.2",
+    "jsonlite": "2.0.0",
+    "patchwork": "1.3.2",
+    "ragg": "1.5.2",
+    "readr": "2.2.0",
+    "systemfonts": "1.3.2"
+  },
+  "outputs": {
+    "1": [
+      {
+        "output": "vector_pdf_master",
+        "relative_path": "outputs/Figure4_independent_temporal_context.pdf",
+        "sha256": "836dd5904523d55661023085fff5d86092db8152c26475d6b443b223b7afb588",
+        "_row": "vector_pdf_master"
+      }
+    ],
+    "2": [
+      {
+        "output": "glia_submission_tiff",
+        "relative_path": "outputs/Figure4_independent_temporal_context.tiff",
+        "sha256": "df1182b2e7e3a6ab819a35690256bd517a2e15a1c9feef26c31c82ebc774a208",
+        "_row": "glia_submission_tiff"
+      }
+    ],
+    "3": [
+      {
+        "output": "png_preview",
+        "relative_path": "outputs/Figure4_independent_temporal_context_preview.png",
+        "sha256": "a48562b841daf82ee10921027b314a646a178bf09d4f0112e94d1aaceadb9039",
+        "_row": "png_preview"
+      }
+    ],
+    "4": [
+      {
+        "output": "plot_object",
+        "relative_path": "outputs/Figure4_independent_temporal_context.rds",
+        "sha256": "b698048ec6581a440cee33aaa18a0ede0c2012139f5f07ab3e1ce3b437cda304",
+        "_row": "plot_object"
+      }
+    ]
+  }
+}

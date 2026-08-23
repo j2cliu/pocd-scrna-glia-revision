@@ -1,0 +1,7 @@
+graph_scope,leiden_resolution,seed,n_partitions,adjusted_rand_index_vs_submitted,reproduces_submitted_partition
+Exact graph stored in adata_microglia_subtyped.h5ad,0.4,0,7,1,TRUE
+Exact graph stored in adata_microglia_subtyped.h5ad,0.4,1,6,0.4909241455388157,FALSE
+Exact graph stored in adata_microglia_subtyped.h5ad,0.4,7,7,0.5858529047117915,FALSE
+Exact graph stored in adata_microglia_subtyped.h5ad,0.4,42,7,0.5127939875974998,FALSE
+Exact graph stored in adata_microglia_subtyped.h5ad,0.4,123,6,0.4033111527516049,FALSE
+Exact graph stored in adata_microglia_subtyped.h5ad,0.4,2024,7,0.5165138553705313,FALSE

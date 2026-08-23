@@ -1,0 +1,4 @@
+source_key,source_file,absolute_path,sha256,source_type
+soft,GSE283401_family.soft,PROJECT_ROOT/data/raw/GSE283401/GSE283401_family.soft,9a48201c185162cd717b0463a0d39981108a19c883646e3ebf98c73b311228b0,GEO SOFT metadata
+counts_6h,GSE283401_hp_6h_counts.csv.gz,PROJECT_ROOT/data/raw/GSE283401/GSE283401_hp_6h_counts.csv.gz,6c69ce150ce70b0b4758d002c13e736cc82558c8ac312332d9e8c935b019e363,Raw gene-count matrix; hippocampus 6 h
+counts_48h,GSE283401_hp_48h_counts.csv.gz,PROJECT_ROOT/data/raw/GSE283401/GSE283401_hp_48h_counts.csv.gz,0a9cdc0554c895689217192abb1eb50a8dabfe69edb198dfdd455bb0f394470f,Raw gene-count matrix; hippocampus 48 h

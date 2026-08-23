@@ -1,0 +1,3 @@
+analysis_set,analysis_set_order,outcome,estimator,value,cohens_d,exact_permutation_p,delta_scrublet_negative_minus_allcell,contrast,sensitivity_status
+"Primary: 7,371 Scrublet-negative microglia",1,author_selected_isg7,Equal-gene-weight mean pseudobulk log2-CPM,1.0685736753232482,1.3247486233261767,0.2,0.00256974617023431,Combined exposure minus oxygen control,Same six animals under alternative cell-inclusion rule; not independent biological replication
+"Sensitivity: all 7,461 frozen microglia",2,author_selected_isg7,Equal-gene-weight mean pseudobulk log2-CPM,1.066003929153014,1.3023104158058874,0.2,0.00256974617023431,Combined exposure minus oxygen control,Same six animals under alternative cell-inclusion rule; not independent biological replication

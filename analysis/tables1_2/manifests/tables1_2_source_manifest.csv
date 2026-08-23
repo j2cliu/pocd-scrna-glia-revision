@@ -1,0 +1,5 @@
+source_key,relative_source,role,sha256
+sample_qc,figure1/data/panel_ready/fig01_sample_qc.csv,Table 1 frozen per-animal cell and UMI audit,12cecdedbc5f5913164160d62a3e3cc59cd07c827347c1a0564a815d1bd5b4d1
+composition,figure1/data/panel_ready/fig01_composition.csv,Table 2 frozen per-animal non-Rare counts,854b1df0fe0c50226809b20a60a2aa3a32425563428d37d34abd3b63d9b64fae
+composition_effects,figure1/data/panel_ready/fig01_composition_effects.csv,Table 2 Figure 1 cross-check values,7458a6b048c70bb677fd86406e181c93a6475c403fa3c3e237ae41f3be654b2f
+figure_manifest,figure1/manifests/fig01_panel_ready_manifest.csv,Frozen-input hash verification,0e99901429b71c5d583036a1fe5891f61cc2bd82489356c0b7fe954d338ca930

@@ -1,0 +1,27 @@
+{
+  "tables": ["Table 1", "Table 2"],
+  "generated_utc": "2026-07-28 11:14:35 UTC",
+  "script": "80_prepare_glia_R1_tables1_2.R",
+  "script_sha256": "fb1810f3925a1115478c0a63923abe012dd4085b27a14c186b92ab68117511d0",
+  "statistical_unit": "animal/library",
+  "cell_sets": {
+    "table1_before_exclusion": 7461,
+    "table1_scrublet_negative": 7371,
+    "table2_non_rare_conditional": 7367
+  },
+  "table2_statistics": {
+    "contrast": "combined exposure minus oxygen control",
+    "confidence_interval": "Welch-Satterthwaite 95% mean-difference interval",
+    "effect_size": "Cohen's d using pooled within-group SD",
+    "exact_test": "two-sided absolute mean-difference permutation over all 20 three-versus-three allocations; no +1 correction"
+  },
+  "random_seed": {},
+  "r_version": "R version 4.5.2 (2025-10-31)",
+  "packages": {
+    "digest": "0.6.39",
+    "dplyr": "1.2.1",
+    "jsonlite": "2.0.0",
+    "readr": "2.2.0",
+    "tidyr": "1.3.2"
+  }
+}

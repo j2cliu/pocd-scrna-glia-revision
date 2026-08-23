@@ -1,0 +1,34 @@
+{
+  "figure": "Figure S2",
+  "generated_utc": "2026-08-20 14:26:36 UTC",
+  "script": "92_plot_glia_R1_figureS2.R",
+  "script_sha256": "0e5f101feec159059a82f99b800dab253dd2dd4d23551dcb3f8be7e0463cd23f",
+  "dimensions": {
+    "width_mm": 180,
+    "height_mm": 160
+  },
+  "panels": {
+    "A": "Correct fixed stored-graph pairwise seed ARI, with ARI versus submitted labels and recovered partition count",
+    "B": "Conditional resolution-0.4 80% cell-subsampling Jaccard summaries and recovered partition-count distributions after graph reconstruction",
+    "C": "Conditional reconstructed-graph resolution sweep, with across-partition mean, median, and min-max Jaccard summaries"
+  },
+  "fixed_stored_graph_panels": "A only",
+  "reconstructed_graph_panels": "B-C",
+  "biological_replication": false,
+  "end_to_end_pipeline_stability": false,
+  "state_validation": false,
+  "claim_ceiling": "Algorithmic sensitivity and conditional reconstructed-graph diagnostics only; not biological replication, end-to-end stability, or state validation",
+  "submission_raster": {
+    "format": "TIFF",
+    "dpi": 300,
+    "compression": "LZW",
+    "bitsize": 8,
+    "background": "white"
+  },
+  "vector_master": {
+    "format": "PDF",
+    "device": "macOS Quartz PDF",
+    "font_family": "Arial"
+  },
+  "plotting": "R only; no manual artwork editing"
+}

@@ -1,0 +1,20 @@
+{
+  "output": "REPOSITORY_BUILD_SOURCE/revision_work/results_rebuild/tables1_2/outputs/GLIA_revised_Tables1_2.docx",
+  "sha256": "4ade1369159d3bb543fa120b7f50d65c35a0f9b590b94286ee002380ec57ff83",
+  "inputs": {
+    "Table1_microglial_analysis_set_audit.csv": "1f9929f01719b771f1f71ad74bc4ea2d8cf26c5172b3a849c2aaac96363061a9",
+    "Table2_partA_per_animal_composition.csv": "8d5f4cc5b073d8d9ce5e9d5b8ea194a284107a1ac0e1cca343a940e3d2aa1397",
+    "Table2_partB_animal_level_contrasts.csv": "6a7709dc53e95ab20a3df438a0fefcfc0bfa27564dd7380fab97ef522087e743",
+    "tables1_2_text.json": "87ce801ce4ae9d61710f41dc1276254d57212ddf123fbb0affcd0e38ca712f17"
+  },
+  "layout": {
+    "base_preset": "compact_reference_guide",
+    "named_override": "journal_table_landscape",
+    "page": "US Letter landscape",
+    "margins_inches": 0.55,
+    "table_width_dxa": 14040,
+    "table_indent_dxa": 100,
+    "body_font": "Arial 7.8 pt in table cells",
+    "borders": "minimal horizontal rules; no vertical rules or fills"
+  }
+}

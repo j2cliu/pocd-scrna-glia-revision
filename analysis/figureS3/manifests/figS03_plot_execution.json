@@ -1,0 +1,37 @@
+{
+  "figure": "Figure S3",
+  "generated_utc": "2026-08-22 02:52:32 UTC",
+  "script": "90_plot_glia_R1_figureS3.R",
+  "script_sha256": "4895908b4129a82c5bc78f6fde9f07751f56fbd9dc0b324871198a19703c55b3",
+  "dimensions": {
+    "width_mm": 180,
+    "height_mm": 180
+  },
+  "accession": "GSE289098",
+  "role": "same-cohort processed-count sensitivity only",
+  "biological_unit": "animal/library",
+  "fixed_cell_set": 7371,
+  "panels": {
+    "A": "Per-animal retained UMI percentage and exact mapping audit",
+    "B": "Paired animal-level seven-transcript panel values",
+    "C": "GSE289098-minus-primary gene-level log2 counts-per-million values",
+    "D": "Paired full and six leave-one-animal-out panel contrasts"
+  },
+  "selected_panel_status": "selected during exploratory inspection; secondary descriptive analysis",
+  "common_estimand_build_gate": "PASS",
+  "panel_full_and_loo_direction_gate": "PASS",
+  "claim_ceiling": "Technical processing sensitivity within the same six libraries; not replication, independent validation, or robustness across cohorts",
+  "submission_raster": {
+    "format": "TIFF",
+    "dpi": 300,
+    "compression": "LZW",
+    "bitsize": 8,
+    "background": "white"
+  },
+  "vector_master": {
+    "format": "PDF",
+    "device": "macOS Quartz PDF",
+    "font_family": "Arial"
+  },
+  "plotting": "R only; no manual artwork editing"
+}

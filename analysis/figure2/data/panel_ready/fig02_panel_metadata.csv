@@ -1,0 +1,2 @@
+panel_id,display_name,genes,n_genes,selection_status,direct_expression_estimator,analysis_set,biological_unit,contrast
+author_selected_isg7,Seven selected interferon-responsive transcripts,Irf7;Ifitm3;Isg15;Mx1;Ifit1;Ifit2;Ifit3,7,"Author-selected, post hoc, exploratory",Equal-weight mean of gene-level pseudobulk log2-CPM values; log2(((gene UMI + 0.5)/(total retained UMI + 1)) x 1e6),"7,371 Scrublet-negative frozen submitted microglia",Animal/library,Combined exposure minus oxygen control

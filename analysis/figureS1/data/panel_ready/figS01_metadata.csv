@@ -1,0 +1,2 @@
+n_submitted_cells,n_submitted_partitions,n_detected_symbol_deduplicated_genes,normalization,marker_method,marker_retention,claim_ceiling,published_signature_comparison,published_signature_reason
+7461,7,17878,"total-count normalization to 10,000 followed by log1p",one-versus-rest Wilcoxon rank-sum with tie correction; BH within partition,adjusted P < 0.05 and Scanpy log2 fold change > 0,retrospective traceability audit; no biological-state validation or animal-level inference,withdrawn,submitted partition is seed-sensitive and annotation rule was not reproducible

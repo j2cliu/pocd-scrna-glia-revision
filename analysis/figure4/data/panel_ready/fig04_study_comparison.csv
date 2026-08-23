@@ -1,0 +1,4 @@
+dataset,role,age,assay,exposure,sampling,biological_n,animal_relation,claim_role
+GSE267933,Primary cohort,18-month male mice,10x scRNA-seq,2.5% sevoflurane for 30 min + laparotomy,24 h,3 control; 3 exposed,Primary six-animal cohort,Primary exploratory association
+GSE283401,External context,20–22-month male mice,FACS microglial bulk RNA-seq,1.2% isoflurane in 30% O2 for 2 h + laparotomy,6 h from exposure start,8 control; 7 exposed,Different animals at 6 h and 48 h,Independent context; not replication or validation
+GSE283401,External context,20–22-month male mice,FACS microglial bulk RNA-seq,1.2% isoflurane in 30% O2 for 2 h + laparotomy,48 h from exposure start,8 control; 9 exposed,Different animals at 6 h and 48 h,Independent context; not replication or validation

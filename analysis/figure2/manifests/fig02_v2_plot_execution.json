@@ -1,0 +1,97 @@
+{
+  "figure": "Figure 2",
+  "purpose": "Transcriptome-wide animal-level results followed by secondary descriptive expression of seven selected interferon-responsive transcripts",
+  "generated_utc": "2026-08-21 10:40:11 UTC",
+  "script": "84_plot_glia_R1_figure2_rebalanced.R",
+  "script_sha256": "c2a068e9018c847b374a4bd3e9463a5ad99738959dbb5bc15abdaf8c098c8f4d",
+  "display_map": "RESULTS_DISPLAY_MAP_V2_20260820.md",
+  "display_map_sha256": "dd24e57b191a22618018d0c4fadae79f0e06263e4b651f277556cc86457df629",
+  "dimensions": {
+    "width_mm": 180,
+    "height_mm": 220
+  },
+  "preview_suffix": "",
+  "analysis_set_cells": 7371,
+  "biological_unit": "animal/library",
+  "transcriptome_features": 13926,
+  "full_cohort_fdr_hits": {
+    "total": 40,
+    "positive": 11,
+    "negative": 29
+  },
+  "selected_transcripts": [
+    "Irf7",
+    "Ifitm3",
+    "Isg15",
+    "Mx1",
+    "Ifit1",
+    "Ifit2",
+    "Ifit3"
+  ],
+  "selected_transcript_role": "secondary descriptive analysis",
+  "submission_raster": {
+    "format": "TIFF",
+    "dpi": 300,
+    "compression": "LZW",
+    "bitsize": 8,
+    "background": "white"
+  },
+  "vector_master": {
+    "format": "PDF",
+    "device": "macOS Quartz PDF",
+    "font_family": "Arial",
+    "fonts_requested_embedded": true
+  },
+  "random_seed": {
+    "ggrepel_selected": 42,
+    "ggrepel_stable": 43
+  },
+  "render_warnings": [],
+  "r_version": "R version 4.5.2 (2025-10-31)",
+  "packages": {
+    "digest": "0.6.39",
+    "dplyr": "1.2.1",
+    "ggplot2": "4.0.2",
+    "ggrepel": "0.9.8",
+    "jsonlite": "2.0.0",
+    "patchwork": "1.3.2",
+    "ragg": "1.5.2",
+    "readr": "2.2.0",
+    "scales": "1.4.0",
+    "systemfonts": "1.3.2"
+  },
+  "outputs": {
+    "1": [
+      {
+        "output": "vector_pdf_master",
+        "relative_path": "outputs/Figure2_transcriptome_and_selected_transcripts.pdf",
+        "sha256": "ffd88dc8c61898888c4e5bdbc2b236e65e84b679d5d42f07c764f6414081872e",
+        "_row": "vector_pdf_master"
+      }
+    ],
+    "2": [
+      {
+        "output": "submission_tiff",
+        "relative_path": "outputs/Figure2_transcriptome_and_selected_transcripts.tiff",
+        "sha256": "d9e7b3039508815a0592984e4a03addcd30afacb1c55fa58409749660bd7fc08",
+        "_row": "submission_tiff"
+      }
+    ],
+    "3": [
+      {
+        "output": "png_preview",
+        "relative_path": "outputs/Figure2_transcriptome_and_selected_transcripts_preview.png",
+        "sha256": "59105808051119821983544c26069b3031f1e2096bdf87045a359f608e2dc0ec",
+        "_row": "png_preview"
+      }
+    ],
+    "4": [
+      {
+        "output": "plot_object",
+        "relative_path": "outputs/Figure2_transcriptome_and_selected_transcripts.rds",
+        "sha256": "fe520e297445089bb1e996f71a216d910f609c817f11f1941dee9a3865041c52",
+        "_row": "plot_object"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "figure": "Figure S3",
+  "supplementary_table": "Table S6",
+  "generated_utc": "2026-08-01 01:58:39 UTC",
+  "script": "89_prepare_glia_R1_figureS3_tableS6.R",
+  "script_sha256": "32b88645d2249f3e1da7d06733dbaf81968d2859efc3408111d31d5785f3bf98",
+  "role": "same-cohort processed-count sensitivity only",
+  "biological_unit": "animal/library",
+  "groups": {
+    "oxygen_control": ["C1", "C2", "C3"],
+    "combined_exposure": ["S1", "S2", "S3"]
+  },
+  "common_cells": 7371,
+  "common_features": 27998,
+  "selected_genes": [
+    "Irf7",
+    "Ifitm3",
+    "Isg15",
+    "Mx1",
+    "Ifit1",
+    "Ifit2",
+    "Ifit3"
+  ],
+  "selected_panel_status": "author-selected, post hoc, exploratory",
+  "direct_expression": "log2(((gene UMI + 0.5)/(all-feature retained UMI + 1)) x 1e6); panel is the equal-weight mean of seven gene-level values",
+  "direct_uncertainty": "Welch-Satterthwaite 95% mean-difference interval",
+  "effect_size": "Cohen's d using pooled within-group SD",
+  "exact_test": "two-sided absolute mean-difference permutation over all 20 three-versus-three allocations; full cohort only; no +1 correction",
+  "loo": "six systematic one-animal omissions; descriptive influence analysis",
+  "deseq2": {
+    "design": "~group; Surgery versus Control",
+    "feature_universe": 13926,
+    "universe_rule": "primary payload total count >=10, frozen for both fits",
+    "adjusted_p_values": "BH values are payload-specific and are not an equivalence or concordance gate"
+  },
+  "positive_control": "Primary rerun reproduces Figure 2/Table S3",
+  "gates": [
+    {
+      "gate": "Input",
+      "status": "PARTIAL",
+      "evidence": "Required matrix/barcode/feature/protocol and GSE267933 provenance files are valid; two 992-byte nonanalytic local download stubs are malformed"
+    },
+    {
+      "gate": "Identity",
+      "status": "PASS",
+      "evidence": "All 20,684 cells map one-to-one across six named source libraries"
+    },
+    {
+      "gate": "Common cell",
+      "status": "PASS",
+      "evidence": "All 7,371 frozen Scrublet-negative microglia map exactly once"
+    },
+    {
+      "gate": "Coverage",
+      "status": "PASS",
+      "evidence": "All seven selected genes use identical feature IDs and are measurable in both payloads"
+    },
+    {
+      "gate": "Replication",
+      "status": "PASS",
+      "evidence": "Same six animal/library units retained at n=3 per group; no new replication claimed"
+    },
+    {
+      "gate": "Payload difference",
+      "status": "PASS",
+      "evidence": "2,296,567 matched matrix entries differ"
+    },
+    {
+      "gate": "Estimand concordance",
+      "status": "PASS",
+      "evidence": "Full and all six leave-one-animal-out panel differences remain positive; alternative-minus-primary full contrast = +0.029722"
+    }
+  ],
+  "gene_influence_note": "One near-zero LOO gene estimate crosses sign: Isg15 after omitting S3; 48/49 gene full-plus-LOO scenarios agree",
+  "claim_ceiling": "Technical processing sensitivity within the same six libraries; not replication, independent validation, or robustness across cohorts"
+}

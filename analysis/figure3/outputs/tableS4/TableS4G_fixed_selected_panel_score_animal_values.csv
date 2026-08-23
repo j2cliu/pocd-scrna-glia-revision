@@ -1,0 +1,7 @@
+sample,sample_order,display_group,condition_order,biological_unit,outcome,estimator,score_value,panel_genes,selection_status
+C1,1,Oxygen control,1,Animal/library,author_selected_isg7,Scanpy score_genes,-0.0522138128733792,Irf7;Ifitm3;Isg15;Mx1;Ifit1;Ifit2;Ifit3,"Author-selected, post hoc, exploratory"
+C2,2,Oxygen control,1,Animal/library,author_selected_isg7,Scanpy score_genes,-0.03082775214435653,Irf7;Ifitm3;Isg15;Mx1;Ifit1;Ifit2;Ifit3,"Author-selected, post hoc, exploratory"
+C3,3,Oxygen control,1,Animal/library,author_selected_isg7,Scanpy score_genes,-0.04222353099658831,Irf7;Ifitm3;Isg15;Mx1;Ifit1;Ifit2;Ifit3,"Author-selected, post hoc, exploratory"
+S1,4,Combined exposure,2,Animal/library,author_selected_isg7,Scanpy score_genes,-0.03902670925366756,Irf7;Ifitm3;Isg15;Mx1;Ifit1;Ifit2;Ifit3,"Author-selected, post hoc, exploratory"
+S2,5,Combined exposure,2,Animal/library,author_selected_isg7,Scanpy score_genes,-0.05666267977668522,Irf7;Ifitm3;Isg15;Mx1;Ifit1;Ifit2;Ifit3,"Author-selected, post hoc, exploratory"
+S3,6,Combined exposure,2,Animal/library,author_selected_isg7,Scanpy score_genes,0.10990842655042898,Irf7;Ifitm3;Isg15;Mx1;Ifit1;Ifit2;Ifit3,"Author-selected, post hoc, exploratory"

@@ -1,0 +1,7 @@
+part,filename,unit,description
+A,TableS2A_fixed_stored_graph_seed_results,Leiden seed,Partition count and adjusted Rand index against the submitted partition for six Leiden seeds on the exact stored neighborhood graph
+B,TableS2B_fixed_stored_graph_pairwise_ari,Unique seed pair,All 15 pairwise adjusted Rand indices among the same six fixed-graph runs
+C,TableS2C_subsampling_submitted_partition_jaccard,Submitted partition,Best-match Jaccard summaries after 80% cell subsampling and graph reconstruction from inherited PC coordinates at resolution 0.4
+D,TableS2D_subsampling_cluster_count_distribution,Arm x partition count,Recovered-partition count distribution for 100 variable-seed and 50 fixed-seed reconstructed-graph subsampling runs
+E,TableS2E_resolution_sweep_summary,Leiden resolution,Full-cohort and modal subsample partition counts and across-partition best-match Jaccard summaries for eight reconstructed-graph resolutions
+F,TableS2F_resolution_sweep_per_partition,Reconstructed partition,Per-partition size and mean best-match Jaccard at each resolution; IDs are resolution-specific and do not map to submitted partition numbers

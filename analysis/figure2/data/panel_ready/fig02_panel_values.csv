@@ -1,0 +1,7 @@
+sample,source_group,display_group,panel_mean_log2_cpm,panel_id,n_genes,genes
+C1,Control,Oxygen control,2.2386287029118845,author_selected_isg7,7,Irf7;Ifitm3;Isg15;Mx1;Ifit1;Ifit2;Ifit3
+C2,Control,Oxygen control,2.1701928892129994,author_selected_isg7,7,Irf7;Ifitm3;Isg15;Mx1;Ifit1;Ifit2;Ifit3
+C3,Control,Oxygen control,2.5091505557575324,author_selected_isg7,7,Irf7;Ifitm3;Isg15;Mx1;Ifit1;Ifit2;Ifit3
+S1,Surgery,Combined exposure,3.0995847018265072,author_selected_isg7,7,Irf7;Ifitm3;Isg15;Mx1;Ifit1;Ifit2;Ifit3
+S2,Surgery,Combined exposure,2.4109425229917774,author_selected_isg7,7,Irf7;Ifitm3;Isg15;Mx1;Ifit1;Ifit2;Ifit3
+S3,Surgery,Combined exposure,4.613165949033876,author_selected_isg7,7,Irf7;Ifitm3;Isg15;Mx1;Ifit1;Ifit2;Ifit3

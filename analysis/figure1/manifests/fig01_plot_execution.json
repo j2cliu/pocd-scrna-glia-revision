@@ -1,0 +1,73 @@
+{
+  "figure": "Figure 1",
+  "generated_utc": "2026-08-20 14:14:18 UTC",
+  "script": "79_plot_glia_R1_figure1.R",
+  "script_sha256": "d927a14ed2292e1fc7254b06a9a1be5da346a28e74932e5bc842a68483b57ef6",
+  "dimensions": {
+    "width_mm": 180,
+    "height_mm": 215
+  },
+  "preview_suffix": "_no_titles_r3",
+  "submission_raster": {
+    "format": "TIFF",
+    "dpi": 300,
+    "compression": "LZW",
+    "bitsize": 8,
+    "background": "white"
+  },
+  "vector_master": {
+    "format": "PDF",
+    "device": "macOS Quartz PDF",
+    "font_family": "Arial",
+    "fonts_requested_embedded": true
+  },
+  "random_seed": 20260728,
+  "render_warnings": [],
+  "r_version": "R version 4.5.2 (2025-10-31)",
+  "packages": {
+    "colorspace": "2.1.2",
+    "digest": "0.6.39",
+    "dplyr": "1.2.1",
+    "ggplot2": "4.0.2",
+    "jsonlite": "2.0.0",
+    "patchwork": "1.3.2",
+    "ragg": "1.5.2",
+    "readr": "2.2.0",
+    "scales": "1.4.0",
+    "systemfonts": "1.3.2"
+  },
+  "outputs": {
+    "1": [
+      {
+        "output": "vector_pdf_master",
+        "relative_path": "outputs/Figure1_study_design_partition_audit.pdf",
+        "sha256": "da31c9893565a3a31a9021ae4e7b1ba363a5b6dc92166b19f4e2724f08eb0a37",
+        "_row": "vector_pdf_master"
+      }
+    ],
+    "2": [
+      {
+        "output": "glia_submission_tiff",
+        "relative_path": "outputs/Figure1_study_design_partition_audit.tiff",
+        "sha256": "04bf27e69a8ca6dd605104a0517f6df642c21ac08f118152bf28788207f285ab",
+        "_row": "glia_submission_tiff"
+      }
+    ],
+    "3": [
+      {
+        "output": "png_preview",
+        "relative_path": "outputs/Figure1_study_design_partition_audit_preview_no_titles_r3.png",
+        "sha256": "67b500c08140b08c54fa552b93ccceeffcf9b2db7e6960f8ced46fd5e2576152",
+        "_row": "png_preview"
+      }
+    ],
+    "4": [
+      {
+        "output": "plot_object",
+        "relative_path": "outputs/Figure1_study_design_partition_audit.rds",
+        "sha256": "2fe55cf0ae4d276ba486ea7be2b59ff6dd1e747237898618849086c62020ea33",
+        "_row": "plot_object"
+      }
+    ]
+  }
+}

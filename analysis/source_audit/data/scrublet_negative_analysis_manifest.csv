@@ -1,0 +1,13 @@
+item,value
+R,4.5.2
+DESeq2,1.50.2
+clusterProfiler,4.18.4
+msigdbr,26.1.0
+fgsea,1.36.2
+MSigDB,2026.1.Mm
+Hallmark collection,MH (mouse-native; no fallback)
+Hallmark sets,50
+full-cohort filtered features,13926
+LOO gene-universe policy,retain full-cohort filtered features in every LOO fit
+ranking metric,signed DESeq2 Wald statistic
+random seed,42

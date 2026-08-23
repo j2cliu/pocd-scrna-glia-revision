@@ -1,0 +1,3 @@
+source_group,display_group,samples,n_animals,exposure,dataset,age,sex,strain,tissue,sampling,assay
+Control,Oxygen control,C1-C3,3,50% oxygen for 30 min; no anesthesia or laparotomy,GSE267933,18 months,male,C57BL/6,hippocampus,24 h after exposure,10x Genomics Chromium Single Cell 3' v2
+Surgery,Combined exposure,S1-S3,3,2.5% sevoflurane in 50% oxygen for 30 min plus exploratory laparotomy,GSE267933,18 months,male,C57BL/6,hippocampus,24 h after exposure,10x Genomics Chromium Single Cell 3' v2

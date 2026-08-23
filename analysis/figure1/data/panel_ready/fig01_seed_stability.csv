@@ -1,0 +1,7 @@
+seed,n_clusters,ari_vs_original,diagnostic,submitted_seed
+0,7,1,Fixed stored graph; Leiden resolution 0.4,TRUE
+1,6,0.4909241455388157,Fixed stored graph; Leiden resolution 0.4,FALSE
+7,7,0.5858529047117915,Fixed stored graph; Leiden resolution 0.4,FALSE
+42,7,0.5127939875974998,Fixed stored graph; Leiden resolution 0.4,FALSE
+123,6,0.4033111527516049,Fixed stored graph; Leiden resolution 0.4,FALSE
+2024,7,0.5165138553705313,Fixed stored graph; Leiden resolution 0.4,FALSE

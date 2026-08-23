@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the associated manuscript and the original GEO datasets."
+title: "Reproducibility package for animal-level heterogeneity in interferon-responsive transcription after sevoflurane anesthesia and laparotomy"
+type: software
+version: "GLIA-revision-prepublication"
+authors:
+  - family-names: Pan
+    given-names: Ting-An
+  - family-names: Liu
+    given-names: Ping-Hsin
+  - family-names: Liu
+    given-names: Chien-Cheng
+keywords:
+  - microglia
+  - single-cell RNA sequencing
+  - perioperative stress
+  - interferon response
+  - reproducibility
+

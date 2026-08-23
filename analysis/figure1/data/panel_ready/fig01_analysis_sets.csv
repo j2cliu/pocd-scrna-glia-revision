@@ -1,0 +1,4 @@
+analysis_set,n_cells,rule,figure_panels
+Submitted-partition audit,7461,All frozen submitted microglia,1B-1C
+Conditional composition,7367,Partition 6 (Rare; 94 cells) excluded; Scrublet status not used,1D
+Primary molecular analyses,7371,90 Scrublet-predicted doublets excluded without conditioning on submitted partition,Figures 2-4
