@@ -49,10 +49,15 @@ population and are not redistributed in this repository. Figure and table
 reproduction from the included panel-ready and pseudobulk-derived files does
 not require those objects.
 
+`adata_microglia_pseudotime.h5ad` is a legacy upstream filename. The retained
+Figure S1 preparation script reads only its stored cell identifiers, sample and
+group fields, numeric reference-partition labels, and traceability labels. It
+does not read a pseudotime value or perform diffusion-pseudotime or directional
+trajectory analysis.
+
 ## Data-role boundary
 
 GSE289098 must not be counted as a second cohort: its barcodes and ordered
 features were matched to the GSE267933 cells and libraries. GSE283401 differs
 in assay, anesthetic, exposure duration, laboratory, sampling design, and
 sample time. It is therefore used only for external context.
-

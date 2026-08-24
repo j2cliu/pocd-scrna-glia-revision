@@ -51,6 +51,48 @@ if (length(missing)) {
   stop("Missing required repository files: ", paste(missing, collapse = ", "))
 }
 
+inclusion <- read.csv(
+  "provenance/INCLUSION_MANIFEST.csv",
+  check.names = FALSE,
+  stringsAsFactors = FALSE
+)
+required_manifest_fields <- c(
+  "repository_path", "repository_bytes", "repository_sha256", "transformed"
+)
+missing_manifest_fields <- setdiff(required_manifest_fields, names(inclusion))
+if (length(missing_manifest_fields)) {
+  stop(
+    "INCLUSION_MANIFEST.csv is missing required fields: ",
+    paste(missing_manifest_fields, collapse = ", ")
+  )
+}
+if (anyDuplicated(inclusion$repository_path)) {
+  stop("INCLUSION_MANIFEST.csv contains duplicate repository paths.")
+}
+missing_included <- inclusion$repository_path[!file.exists(inclusion$repository_path)]
+if (length(missing_included)) {
+  stop(
+    "Files listed in INCLUSION_MANIFEST.csv are missing: ",
+    paste(missing_included, collapse = ", ")
+  )
+}
+current_inclusion_bytes <- unname(file.info(inclusion$repository_path)$size)
+current_inclusion_sha256 <- vapply(
+  inclusion$repository_path,
+  sha256_file,
+  character(1)
+)
+stale_inclusion <- inclusion$repository_path[
+  current_inclusion_bytes != inclusion$repository_bytes |
+    current_inclusion_sha256 != inclusion$repository_sha256
+]
+if (length(stale_inclusion)) {
+  stop(
+    "INCLUSION_MANIFEST.csv has stale repository identities: ",
+    paste(stale_inclusion, collapse = ", ")
+  )
+}
+
 all_files <- list.files(
   ".",
   recursive = TRUE,
@@ -182,6 +224,7 @@ report <- c(
   paste0("- R scripts parsed: ", length(r_scripts)),
   paste0("- Python scripts byte-compiled: ", length(python_scripts)),
   paste0("- Required artifacts present: ", length(required), "/", length(required)),
+  paste0("- Inclusion-manifest identities verified: ", nrow(inclusion), "/", nrow(inclusion)),
   "- Private absolute paths: 0",
   "- Credential/secret-pattern hits: 0",
   "- Files at or above 100 MB: 0",

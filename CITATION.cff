@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this reproducibility package, please cite the associated manuscript and the original GEO datasets."
 title: "Reproducibility package for animal-level heterogeneity in interferon-responsive transcription after sevoflurane anesthesia and laparotomy"
 type: software
-version: "1.0.0"
-date-released: 2026-08-23
+version: "1.0.1"
+date-released: 2026-08-24
 repository-code: "https://github.com/j2cliu/pocd-scrna-glia-revision"
 url: "https://github.com/j2cliu/pocd-scrna-glia-revision"
 license: MIT
@@ -12,8 +12,10 @@ authors:
     given-names: Ting-An
   - family-names: Liu
     given-names: Ping-Hsin
+    orcid: "https://orcid.org/0000-0001-7208-4627"
   - family-names: Liu
     given-names: Chien-Cheng
+    orcid: "https://orcid.org/0000-0002-1513-6213"
 keywords:
   - microglia
   - single-cell RNA sequencing

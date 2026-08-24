@@ -526,15 +526,15 @@ p_d <- ggplot(panel_d_long, aes(x = mean_difference, y = scenario)) +
   ) +
   geom_text(
     data = panel_d_wide,
-    aes(x = 1.72, y = scenario, label = delta_label),
+    aes(x = 1.65, y = scenario, label = delta_label),
     inherit.aes = FALSE,
-    hjust = 1,
+    hjust = 0,
     family = font_family,
     size = 2.05,
     color = neutral_mid
   ) +
   annotate(
-    "text", x = 1.72, y = 7.42, label = "GSE289098 − primary",
+    "text", x = 1.82, y = 7.42, label = "GSE289098 − primary",
     hjust = 1, family = font_family, size = 2.1,
     fontface = "bold", color = neutral_mid
   ) +
@@ -574,7 +574,7 @@ p_d <- ggplot(panel_d_long, aes(x = mean_difference, y = scenario)) +
   ) +
   scale_x_continuous(
     breaks = c(0, 0.5, 1.0, 1.5),
-    limits = c(-0.05, 1.75),
+    limits = c(-0.05, 1.85),
     expand = expansion(mult = c(0, 0))
   ) +
   scale_y_discrete(

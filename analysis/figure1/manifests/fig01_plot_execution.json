@@ -7,7 +7,8 @@
     "width_mm": 180,
     "height_mm": 215
   },
-  "preview_suffix": "_no_titles_r3",
+  "preview_suffix": "",
+  "post_freeze_packaging_cleanup": "The final R-generated no-title preview was restored under the canonical preview filename; PDF, TIFF, RDS, and scientific content were unchanged.",
   "submission_raster": {
     "format": "TIFF",
     "dpi": 300,
@@ -56,7 +57,7 @@
     "3": [
       {
         "output": "png_preview",
-        "relative_path": "outputs/Figure1_study_design_partition_audit_preview_no_titles_r3.png",
+        "relative_path": "outputs/Figure1_study_design_partition_audit_preview.png",
         "sha256": "67b500c08140b08c54fa552b93ccceeffcf9b2db7e6960f8ced46fd5e2576152",
         "_row": "png_preview"
       }

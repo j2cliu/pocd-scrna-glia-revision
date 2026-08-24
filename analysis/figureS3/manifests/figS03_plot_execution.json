@@ -1,8 +1,8 @@
 {
   "figure": "Figure S3",
-  "generated_utc": "2026-08-22 02:52:32 UTC",
-  "script": "90_plot_glia_R1_figureS3.R",
-  "script_sha256": "4895908b4129a82c5bc78f6fde9f07751f56fbd9dc0b324871198a19703c55b3",
+  "generated_utc": "2026-08-24 12:41:49 UTC",
+  "script": "90_plot_figureS3.R",
+  "script_sha256": "d69cf0e61d001732ac3c6c38e66bf1db9c2331ab1e70930fd96c58af9c8a440a",
   "dimensions": {
     "width_mm": 180,
     "height_mm": 180

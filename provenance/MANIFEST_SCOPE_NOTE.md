@@ -13,8 +13,15 @@ authoritative list of files actually curated into this package is
 `INCLUSION_MANIFEST.csv`; the authoritative current file hashes are in
 `REPOSITORY_FILE_MANIFEST.csv`.
 
+The `transformed` field in `INCLUSION_MANIFEST.csv` also identifies files that
+were sanitized, renumbered, or regenerated inside the public repository from
+the frozen panel-ready inputs. For these rows, the source and repository hashes
+may intentionally differ. Repository-side rendering is used for convenience
+previews, vector PDFs, and plot objects; the seven journal-submission TIFF
+files are independently re-rendered and hash-checked by
+`validation/02_reproduce_frozen_displays.R`.
+
 The repository-facing `RESULTS_EVIDENCE_MAP.csv` uses only paths that exist in
 the clean package. The internal evidence ledger is retained for historical
 claim provenance, including its explicitly retired R4.P1 row and pre-cleanup
 Table S4 numbering; it is not the repository navigation index.
-

@@ -960,7 +960,7 @@ data_dictionary <- tribble(
   ~part, ~filename, ~unit, ~description,
   "A", "TableS6A_global_payload_and_gate_audit", "Count payload", paste(
     "Matrix dimensions, exact cell/feature overlap, count losses, frozen",
-    "feature universes, malformed-stub note, and final sensitivity gates"
+    "feature universes, and final sensitivity gates"
   ),
   "B", "TableS6B_library_mapping_and_counts", "Animal/library", paste(
     "GSE267933 identifiers, GSE289098 suffix mapping, all-cell and frozen",

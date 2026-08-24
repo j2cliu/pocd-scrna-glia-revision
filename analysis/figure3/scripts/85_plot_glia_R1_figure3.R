@@ -628,21 +628,12 @@ p_a_loo <- ggplot(
     color = neutral_dark
   ) +
   geom_point(
-    data = isg_loo_plot |>
-      filter(!is_full_cohort, dropped_animal != "S3"),
+    data = isg_loo_plot |> filter(!is_full_cohort),
     aes(color = dropped_source_group),
     shape = 21,
     size = 2.35,
     stroke = 0.65,
     fill = "white"
-  ) +
-  geom_point(
-    data = isg_loo_plot |> filter(dropped_animal == "S3"),
-    shape = 21,
-    size = 2.55,
-    stroke = 0.55,
-    color = condition_colors[["Combined exposure"]],
-    fill = condition_colors[["Combined exposure"]]
   ) +
   geom_text(
     data = isg_loo_plot |> filter(!is_full_cohort),

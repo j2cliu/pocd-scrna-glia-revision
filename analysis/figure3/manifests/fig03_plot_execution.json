@@ -1,14 +1,15 @@
 {
   "figure": "Figure 3",
   "purpose": "Animal influence and estimator sensitivity for selected interferon-responsive summaries",
-  "generated_utc": "2026-08-22 02:51:45 UTC",
+  "generated_utc": "2026-08-24 12:41:22 UTC",
   "script": "85_plot_glia_R1_figure3.R",
-  "script_sha256": "910099a4fdbfdbe58d30aa4a3caeeb56821f5fc92f86e76c2228d28eb93a5b04",
+  "script_sha256": "7721fa1eb3d08e479353a6100e6afb5b6ea1574b1abb41514300b052ff9f1c2f",
   "dimensions": {
     "width_mm": 180,
     "height_mm": 155
   },
   "preview_suffix": "",
+  "post_freeze_metadata_cleanup": "The retired IEG-only metadata field was removed; plot data, values, and rendered outputs were unchanged.",
   "primary_accession": "GSE267933",
   "primary_analysis_set_cells": 7371,
   "inclusion_sensitivity_cells": 7461,
@@ -53,7 +54,7 @@
       {
         "output": "vector_pdf_master",
         "relative_path": "outputs/Figure3_animal_influence_estimator_sensitivity.pdf",
-        "sha256": "b39312c83706bac453a1c0e435931501d61c910c9ac04b6f658ca6a80ed207cd",
+        "sha256": "cf5172b0ea640bde6918563507f7a497569043854bc921017e28d188dd42122a",
         "_row": "vector_pdf_master"
       }
     ],
@@ -61,7 +62,7 @@
       {
         "output": "glia_submission_tiff",
         "relative_path": "outputs/Figure3_animal_influence_estimator_sensitivity.tiff",
-        "sha256": "adab406600faed4f7096ee41b558b932b8e4297f36610acbc858f47167b367a7",
+        "sha256": "56832ea2800ee1381ccc3535c18aa8f8da79ba0cbacd061e4bdbfff65e320c5e",
         "_row": "glia_submission_tiff"
       }
     ],
@@ -69,7 +70,7 @@
       {
         "output": "png_preview",
         "relative_path": "outputs/Figure3_animal_influence_estimator_sensitivity_preview.png",
-        "sha256": "bfb9a7b7c42ad673cf393e844268a9dcb6879097d8e9c6071b3228748e725829",
+        "sha256": "d89d41756a1825c836c1a75bbf2e0eb2fa61278dbceeb002b42167ab9cb7a3cf",
         "_row": "png_preview"
       }
     ],
@@ -77,7 +78,7 @@
       {
         "output": "plot_object",
         "relative_path": "outputs/Figure3_animal_influence_estimator_sensitivity.rds",
-        "sha256": "2972b6bf386051cd300156803782c9e53124fe35f70a1ba2e6585ed4ed3440e4",
+        "sha256": "75ce64d25294983a194bcd45f9ae7ec2a1cf02d2e1b1b62e8381dc255c2fb52d",
         "_row": "plot_object"
       }
     ]

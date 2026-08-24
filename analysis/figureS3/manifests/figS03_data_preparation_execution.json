@@ -2,8 +2,9 @@
   "figure": "Figure S3",
   "supplementary_table": "Table S6",
   "generated_utc": "2026-08-01 01:58:39 UTC",
-  "script": "89_prepare_glia_R1_figureS3_tableS6.R",
-  "script_sha256": "32b88645d2249f3e1da7d06733dbaf81968d2859efc3408111d31d5785f3bf98",
+  "script": "89_prepare_figureS3_tableS6.R",
+  "script_sha256": "bbd861dcc2ee7d36fde51148a0305b9a479dac741225730bdaf5d370f4aa0e4e",
+  "post_freeze_metadata_cleanup": "The Table S6 Part A data-dictionary description was aligned with the fields actually present; numerical outputs and analyses were unchanged and were not rerun.",
   "role": "same-cohort processed-count sensitivity only",
   "biological_unit": "animal/library",
   "groups": {
